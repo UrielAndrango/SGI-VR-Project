@@ -1,10 +1,23 @@
 {
   "dependencies": {
+    "com.google.xr.cardboard": {
+      "version": "https://github.com/googlevr/cardboard-xr-plugin.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.xr.management": "3.2.9",
+        "com.unity.xr.legacyinputhelpers": "2.1.4"
+      },
+      "hash": "d9f0aa2eb03eb544069ea7278048994e548e6d03"
+    },
     "com.unity.collab-proxy": {
-      "version": "1.9.0",
+      "version": "1.13.5",
       "depth": 0,
       "source": "registry",
-      "dependencies": {},
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "2.0.0",
+        "com.unity.services.core": "1.0.1"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.editorcoroutines": {
@@ -53,6 +66,22 @@
       "dependencies": {
         "com.unity.editorcoroutines": "1.0.0",
         "com.unity.settings-manager": "1.0.2"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.nuget.newtonsoft-json": {
+      "version": "2.0.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.services.core": {
+      "version": "1.0.1",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.unitywebrequest": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
